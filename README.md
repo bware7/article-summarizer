@@ -1,8 +1,19 @@
 # Final Project: Article Summarizer
+## Bin Ware
 
-Complete the tasks in the Python Notebook in this repository.
-Make sure to add and push the pkl or text file of your scraped html (this is specified in the notebook)
+In this project, I have applied web mining and natural language processing techniques to extract and summarize an online article. Specifically, I:
 
+1. Selected a Wikipedia article on Ethiopia and saved its HTML.
+2. Processed the text using spaCy and SpacyTextBlob to determine sentiment.
+3. Identified the most frequent tokens and lemmas.
+4. Created histograms to visualize sentence-level sentiment scores (for both tokens and lemmas).
+5. Determined sentiment cutoff scores to select a subset of sentences for a summary.
+6. Produced two summaries:
+            - One using a token-based cutoff
+            - One using a lemma-based cutoff
+7. Compared the polarity scores and discussed the differences.
+
+I have included the original HTML of the article (ethiopia_article.html) in the repository as required.
 ## Rubric
 
 * (Question 1) Article html stored in separate file that is committed and pushed: 1 pt
